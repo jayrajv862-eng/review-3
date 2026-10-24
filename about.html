@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation | About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff7f7;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #a61b29;
+            color: white;
+            text-align: center;
+            padding: 24px 12px;
+        }
+
+        header h1 { margin: 0; }
+
+        nav {
+            background-color: #7f1420;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover, nav a[aria-current="page"] { text-decoration: underline; }
+
+        main {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .welcome {
+            background-color: white;
+            border-left: 6px solid #c62838;
+            padding: 22px;
+            border-radius: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #c62838;
+            color: white;
+        }
+
+        footer {
+            background-color: #eeeeee;
+            text-align: center;
+            padding: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blood Donation</h1>
+        <p>A small act can make a big difference</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="eligibility.html">Eligibility</a>
+        <a href="donate.html">How to Donate</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <h2>About This Project</h2>
+            <p>This project aims to spread awareness about blood donation and encourage people to learn how they can help. Blood cannot be made in a lab, so hospitals depend on volunteer donors.</p>
+        </section>
+
+        <section>
+            <h2>Blood Group Compatibility</h2>
+            <p>This table shows which groups a donor can give red blood cells to.</p>
+            <table>
+                <tr><th>Donor Group</th><th>Can Donate To</th></tr>
+                <tr><td>O-</td><td>All groups</td></tr>
+                <tr><td>O+</td><td>O+, A+, B+, AB+</td></tr>
+                <tr><td>A-</td><td>A-, A+, AB-, AB+</td></tr>
+                <tr><td>A+</td><td>A+, AB+</td></tr>
+                <tr><td>B-</td><td>B-, B+, AB-, AB+</td></tr>
+                <tr><td>B+</td><td>B+, AB+</td></tr>
+                <tr><td>AB-</td><td>AB-, AB+</td></tr>
+                <tr><td>AB+</td><td>AB+ only</td></tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Blood Donation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
